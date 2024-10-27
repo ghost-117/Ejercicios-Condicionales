@@ -15,4 +15,4 @@ while True:
         print("¡Has entrado al sistema!")
         break
     else:
-        print("Error: Usuario o contraseña incorrectos. Intenta nuevamente.")
+        print("Error:  Usuario o contraseña incorrectos.Por favor Intenta nuevamente.")
