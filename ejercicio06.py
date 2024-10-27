@@ -1,4 +1,4 @@
-"""Programa que lea una cadena por teclado y compruebe si es una letra mayúscula."""
+"""Programa que lea una cadena por teclado y compruebe cada una de las letras si es mayúscula o no."""
 
 palabra = input("Ingrese una palabra: ")
 
