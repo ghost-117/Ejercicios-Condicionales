@@ -7,4 +7,4 @@ if num2 != 0:
     resultado = num1 / num2
     print("El resultado de la división es:", resultado)
 else:
-    print("No se puede dividir entre cero.")
+    print("Error, no se puede dividir entre cero.")
