@@ -11,7 +11,7 @@ if nota < 0 or nota > 10:
 else:
     # Validación de edad
     edad = int(input("Ingrese la edad: "))
-    if edad < 0 or edad > 120:
+    if edad < 0 or edad > 100:
         print("ERROR: La edad no es válida")
     else:
         # Validación de sexo
@@ -19,7 +19,7 @@ else:
         if sexo != "F" and sexo != "M":
             print("ERROR: El sexo debe ser F o M")
         else:
-            # Lógica principal con mensajes más detallados
+            # Desarrollo del programa
             if nota >= 5:
                 if edad >= 18:
                     if sexo == "F":
