@@ -10,4 +10,4 @@ try:
   result = par_impar(num)
   print(result)
 except ValueError:
-  print("Por favor, ingrese un número entero válido (sin decimales y caracteres).")
+  print("Por favor, ingrese un número entero (no se acepta decimales y caracteres).")
