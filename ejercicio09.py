@@ -40,7 +40,7 @@ try:
     print(f"{mayor} > {medio} > {menor}")
     
     # Extra/adicional
-    print("\nAnálisis adicional:")
+    print("\nInformacion extra:")
     print(f"Número mayor: {mayor}")
     print(f"Número del medio: {medio}")
     print(f"Número menor: {menor}")
