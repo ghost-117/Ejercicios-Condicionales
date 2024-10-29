@@ -49,4 +49,4 @@ try:
 
 except ValueError:
     print("\nERROR: Por favor, ingrese solo números válidos")
-    print("Ejemplo de entradas válidas: 15, -3.14, 0, 42.5")
+    print("Ejemplo de entradas válidas: 15, -3.14, 0, 42.5, etc.")
