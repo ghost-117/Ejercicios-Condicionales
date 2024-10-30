@@ -29,7 +29,7 @@ try:
         else:
             print(f"\n✅ Número ingresado válido: {numero}")
             print("Calculando cara opuesta...")
-            print("\nRESULTADO:")
+            print("\nEL RESULTADO:")
             
             if numero == 1:
                 print("La cara opuesta es: SEIS")
@@ -60,11 +60,7 @@ try:
                 print("- Has ingresado un número par")
             else:
                 print("- Has ingresado un número impar")
-            
-            suma = numero + (7 - numero)
-            print(f"- La suma de las caras opuestas siempre es 7 ({numero} + {7-numero} = {suma})")
-
 except ValueError:
     print("\n❌ ERROR: Entrada inválida")
-    print("Por favor, ingresa solo números enteros")
-    print("Ejemplo: 1, 2, 3, 4, 5 o 6")
+    print("Por favor, ingresa solo números enteros, ejemplo: 1, 2, 3, 4, 5 o 6")
+   
