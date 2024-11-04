@@ -9,7 +9,7 @@ exponente = int(input("Introduce el exponente(Numero pequeño): "))
 if exponente > 0:
     resultado = base ** exponente
 if exponente == 0:
-    resultado = base
+    resultado = 1
 if exponente < 0:
     resultado = 1 / (base ** abs(exponente))
 print("El resultado es:", resultado)
