@@ -18,7 +18,6 @@ elif durallamada <= 10:
     Cbase = 1 + 0.8 * 3 + 0.7 * (durallamada - 8)
 else:
     Cbase = 1 + 0.8 * 3 + 0.7 * 2 + 0.5 * (durallamada - 10)
-# Obtener el día y turno de la llamada
 dia = input("Ingrese el día de la semana en el que realizó la llamada: ")
 turno = input("Ingrese el turno (Mañana/Tarde): ")
 
@@ -31,7 +30,6 @@ else:
     impuesto = 0.10
 Tpagar = Cbase * (1 + impuesto)
 
-# Mostrar los resultados
 print("Cobro base de la llamada:", Cbase, "euros")
 print("Impuesto aplicado:", impuesto * 100, "%")
 print("Total a pagar:", Tpagar, "euros")
